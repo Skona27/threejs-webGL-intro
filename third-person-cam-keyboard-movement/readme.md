@@ -1,5 +1,5 @@
 # third person camera with keyboard movement
-Controls: WSAD, <-  ->
+Controls: WSAD, and LARR, RARR
 
 ## Installing
 ```
