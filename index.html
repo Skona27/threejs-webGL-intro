@@ -12,10 +12,18 @@
             padding: 0; 
             overflow: hidden;
         }
+
+        #blocker {
+            position: absolute;
+            width: 100%;
+			height: 100%;
+            background-color: rgba(0,0,0,0.9);
+            z-index: 999;
+        }
 	</style>
 </head>
 <body>
-    <div id="root"></div>
+    <div id="blocker"></div>
 
     <script src="./lib/three.min.js"></script>
 	<script src="./lib/pointer-lock-controls.js"></script>
